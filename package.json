@@ -1,0 +1,28 @@
+{
+  "name": "shahar-reminder-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItayNaveh/ShaharReminderBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItayNaveh/ShaharReminderBot/issues"
+  },
+  "homepage": "https://github.com/ItayNaveh/ShaharReminderBot#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
