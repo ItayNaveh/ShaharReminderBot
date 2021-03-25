@@ -8,7 +8,7 @@ const apiUrl = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/`;
 			data: {
 				// chat_id: "@reminder",
 				chat_id: "-1001270026811",
-				text: "test msg",
+				text: `test msg ${new Date(Date.now()).toLocaleString("he-IL")}`,
 			}
 		});
 
